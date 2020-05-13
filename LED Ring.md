@@ -10,7 +10,7 @@
 
 You can see the image of TTP223 sensor ![here](https://user-images.githubusercontent.com/64272528/81846188-52b93780-956f-11ea-9b1e-7911fe68a009.jpeg)
 
-Datasheet for TTP223 IC:
+[ Datasheet for TTP223 IC: ](https://github.com/kapilgarg7568/Electronic-Club-Mini-Task-3/files/4623677/TTP223.pdf)
 
 
 
