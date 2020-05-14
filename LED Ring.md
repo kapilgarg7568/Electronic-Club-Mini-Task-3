@@ -1,5 +1,5 @@
 # LED Ring
-**Problem Statement**: To make a comfortable and wearable LED ring which lights up the LED when worn.
+**Problem Statement**: To make a comfortable and wearable LED ring which lights up the LED when wore.
 
 **Components Required**:
 - **LED**
