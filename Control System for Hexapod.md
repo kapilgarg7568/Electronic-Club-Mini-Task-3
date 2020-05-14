@@ -24,6 +24,6 @@
 
 **Solution**:
 - But its possible using ADO pin (on MPU-6050) and TCA9548A multiplexer breakout.
- `- TCA9548A multiplexer breakout:TCA9548A is an eight-channel (bidirectional) I2C multiplexer which allows eight separate I2C devices to be controlled by a single host I2C bus. You just need to wire up the I2C sensors to the SCn / SDn multiplexed buses. ... The Multiplexer connects to VIN, GND, SDA and SCL lines of the micro-controller.`
+ - `TCA9548A multiplexer breakout:TCA9548A is an eight-channel (bidirectional) I2C multiplexer which allows eight separate I2C devices to be controlled by a single host I2C bus. You just need to wire up the I2C sensors to the SCn / SDn multiplexed buses. ... The Multiplexer connects to VIN, GND, SDA and SCL lines of the micro-controller.`
 - The trick is if ADO of any MPU-6050 is made HIGH, its 12C address changes to 0x69. Now if you want many accelerometers working on the same channel, use the sesnsor address as 0x69 (this will only work when the relevant MPU-6050 ADO is HIGH). When this happens, all the other sensors are transmitting using 0x68 and arduino is not going to read them. Then the arduinocan only read that particular sensor whose ADO is made HIGH using a Pin of TCA9548A multiplexer.
 
