@@ -1,5 +1,7 @@
 # Control System for Hexapod
 ## Data from multiple IMU to microcontroller
+**Problem**:Reading Multiple IMU on the same 12C Bus on Arduino Uno is not easy as all sensors (MPU-6050) have the same address of 0x68.This is important for Arduoino to select which of the conneccted I2C devices it want to talk to so we cant use more than one sensor at a time with I2C protocol.
+
  **Sensor**:
  - Here I am using **MPU-6050** sensor based on MEMS (micro electro mechanical systems) technology.
  - MPU6050 sensor module is complete 6-axis Motion Tracking Device. It combines 3-axis Gyroscope, 3-axis Accelerometer and Digital Motion Processor all in small package.
@@ -20,9 +22,7 @@
  - ![i2c protocol](https://user-images.githubusercontent.com/64272528/81895149-3e0c8c00-95cf-11ea-8345-2b8efdc86f99.jpeg)
 
  
- 
- 
-**Problem**:Reading Multiple IMU on the same 12C Bus on Arduino Uno is not easy as all sensors (MPU-6050) have the same address of 0x68.This is important for Arduoino to select which of the conneccted I2C devices it want to talk to so we cant use more than one sensor at a time with I2C protocol.
+
 
 **Solution**:
 - But its possible using ADO pin (on MPU-6050) and TCA9548A multiplexer breakout.
