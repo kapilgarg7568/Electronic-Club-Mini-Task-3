@@ -35,7 +35,9 @@
 - But we can send or recieve data to maximum 8 same address I2C devices and here we are using 19 IMU so we need 3 such TCA9548A multiplexer to set a proper communication between microcontroller and all 19 MPU-6050 sensors.
 - TCA9548A Multiplexer Datasheet
 - ![sensor](https://user-images.githubusercontent.com/64272528/81896778-eff98780-95d2-11ea-9e2c-5a4068bc3573.jpeg)
--Circuit of Two same address I2C devices connected with arduino through TCA9548A multiplexer
+
+
+- Circuit of Two same address I2C devices connected with arduino through TCA9548A multiplexer
 ![arduino wiht](https://user-images.githubusercontent.com/64272528/81896785-f1c34b00-95d2-11ea-936d-50959ef4db75.jpeg)
 
 
