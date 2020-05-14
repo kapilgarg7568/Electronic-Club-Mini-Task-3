@@ -33,7 +33,9 @@
  - it comes with a reset pin so that if there is any bus conflict or improper operation it can be reset by asserting a low to reset pin. 
 - The trick is if ADO of any MPU-6050 is made HIGH, its 12C address changes to 0x69. Now if you want many accelerometers working on the same channel, use the sesnsor address as 0x69 (this will only work when the relevant MPU-6050 ADO is HIGH). When this happens, all the other sensors are transmitting using 0x68 and arduino is not going to read them. Then the arduinocan only read that particular sensor whose ADO is made HIGH using a Pin of TCA9548A multiplexer.
 - But we can send or recieve data to maximum 8 same address I2C devices and here we are using 19 IMU so we need 3 such TCA9548A multiplexer to set a proper communication between microcontroller and all 19 MPU-6050 sensors.
-- TCA9548A Multiplexer Datasheet
+- [ TCA9548A Multiplexer Datasheet ](https://github.com/kapilgarg7568/Electronic-Club-Mini-Task-3/files/4626276/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout.pdf)
+- [User Guide to TCA9548A Multiplexer ](https://github.com/kapilgarg7568/Electronic-Club-Mini-Task-3/files/4626279/TCA9548A-Q1.PDF)
+
 - ![sensor](https://user-images.githubusercontent.com/64272528/81896778-eff98780-95d2-11ea-9e2c-5a4068bc3573.jpeg)
 
 
