@@ -19,7 +19,8 @@
  - I2C is a serial protocol for two-wire interface to connect low-speed devices like microcontrollers, EEPROMs, A/D and D/A converters, I/O interfaces and other similar peripherals in embedded systems.
  - The way I2C protocol works one thing it needs is that each of the conected I2C module shold have a unique address.
  - More information on [ I2C protocol ](https://en.m.wikipedia.org/wiki/I%C2%B2C)
- - ![i2c protocol](https://user-images.githubusercontent.com/64272528/81895149-3e0c8c00-95cf-11ea-8345-2b8efdc86f99.jpeg)
+ - ![I2C protocol](https://user-images.githubusercontent.com/64272528/81895580-37324900-95d0-11ea-9557-a0a5af38fb60.jpeg)
+
 
  
 
