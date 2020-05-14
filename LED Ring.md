@@ -3,7 +3,7 @@
 
 **Components Required**:
 - **LED**
-- **Two 1.5V coin battery**--> We are using these samll size batteries as we cant use anything which takes a lot of space.
+- **Two 1.5V coin battery**--> We are using these small size batteries as we cant use anything which takes a lot of space.
 
 - **TTP223 touch pad**-->It is quite simple to make this LED ring with this TTP223 touch pad detector as we dont need any other components like resistor, capacitors or any microcontroller. Its a complete package which works completely fine with 3V. This will be mounted on the interior of the ring. VCC and GND pin will be connected to battery's +ve nad -ve terminal and output pin of this sensor can be directly connected to the LED such that when someone puts on the ring this sensor gets activated and lights up the LED.
 
