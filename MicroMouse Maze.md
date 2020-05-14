@@ -1,5 +1,5 @@
 # MicroMouse Maze
-**Problem Statement**: To make a fully autonomous bot which can solve the maze without hotting the wall.
+**Problem Statement**: To make a fully autonomous bot which can solve the maze without hitting the wall.
 
 ## Required Components
 **Square shape board of Plastic for Chassis**:Easily available and can be drilled easily.
