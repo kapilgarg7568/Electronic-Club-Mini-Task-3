@@ -35,6 +35,7 @@ and we cant use this method as it is clearly written in problem statement that s
 **Pledge Algorithm**: In this method of solving maze firstly it goes into an arbitrarily choosen direction and then when an obstacle is met, one hand is kept along the obstacle or wall while angles turned are counted and it takes its further actions on the basis of 'sum of turns made' and 'current heading'.
 
 **FloodFill Algorithm**:Flood Fill algorithm is one of the best maze solving algorithms. The flood fill algorithm involves assigning values to each of the cells in a maze where these values represent the distance from any cell on a maze to the destination cell. So we shall go with it.
+
 More information on [ FloodFill Algorithm ](https://www-freecodecamp-org.cdn.ampproject.org/v/s/www.freecodecamp.org/news/flood-fill-algorithm-explained/amp/?amp_js_v=a3&amp_gsa=1&usqp=mq331AQFKAGwASA%3D#aoh=15894031810366&csi=1&referrer=https%3A%2F%2Fwww.google.com&amp_tf=From%20%251%24s&ampshare=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fflood-fill-algorithm-explained%2F)
 
 
