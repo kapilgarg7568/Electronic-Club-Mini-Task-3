@@ -1,4 +1,4 @@
-h1 Electronic-Club-Mini-Task-3
+# Electronic-Club-Mini-Task-3
 Contains the ideated solutions for the projects given in mini task-3
 
 1. [ LED Ring ](https://github.com/kapilgarg7568/Electronic-Club-Mini-Task-3/blob/master/LED%20Ring.md)
